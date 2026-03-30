@@ -1,6 +1,5 @@
 # Hosting a Static Website with S3
 
-## Project Overview
 This Project demonstrates how to host a static website using Amazon S3. By the end of this setup, a static website is publicly accessible through an S3 endpoint.
 
 ## Step-By-Step Setup
@@ -33,11 +32,12 @@ After uploading my object in the bucket, it is now time to enable static website
 
  ![Upload Static Website](images/img3.png)
 
-4. Next, I added my Bucket Policy in the permissions section (To make files Public).
- **[View Policy](Policy.txt)**
+4. Next, I added my Bucket Policy in the permissions section (To make files Public)  **[View Policy](Policy.txt)**.
+
 ![Bucket Policy](images/img5.png)
 
 5. Now my website is set for viewing;
 
 I copied the Endpoint URL ```` http://demo-demo-bucket.s3-website-us-east-1.amazonaws.com```` for my website and opened it in my browser.
+
 ![Website](images/img6.png)
